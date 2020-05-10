@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "623581519699",
+    "firebase_url": "https://dayatech-f1676.firebaseio.com",
+    "project_id": "dayatech-f1676",
+    "storage_bucket": "dayatech-f1676.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623581519699:android:1154cfa2cc081b89bc0ba6",
+        "android_client_info": {
+          "package_name": "com.build.dayatech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623581519699-962k544007rr7bdubji5cancumk4cqbr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.build.dayatech",
+            "certificate_hash": "44bb7004abdd6ba8274e69bc86e5ed20ab94816c"
+          }
+        },
+        {
+          "client_id": "623581519699-emglj394opigo1703hvd76crl5dqb8vk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCky9aEPDdXVb83yCcCnQQJf_Ng55Noz8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623581519699-emglj394opigo1703hvd76crl5dqb8vk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623581519699:android:33e353bfd4774631bc0ba6",
+        "android_client_info": {
+          "package_name": "com.unikom.asktech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623581519699-sh69209hb7le12j87uqo69rt7ifmtovu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.unikom.asktech",
+            "certificate_hash": "44bb7004abdd6ba8274e69bc86e5ed20ab94816c"
+          }
+        },
+        {
+          "client_id": "623581519699-emglj394opigo1703hvd76crl5dqb8vk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCky9aEPDdXVb83yCcCnQQJf_Ng55Noz8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623581519699-emglj394opigo1703hvd76crl5dqb8vk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.ChatBot">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@drawable/header_chatbot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="170dp"
+        android:layout_marginBottom="19dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="chatbot"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421" />
+
+    <ImageButton
+        android:id="@+id/ImageButtonLeft"
+        android:layout_width="30dp"
+        android:layout_height="28dp"
+        android:layout_alignBottom="@+id/view"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="369dp"
+        android:layout_marginBottom="19dp"
+        android:background="@drawable/ic_left"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageButton>
+
+    <ListView
+        android:id="@+id/list_of_message"
+        android:layout_width="388dp"
+        android:layout_height="559dp"
+        android:layout_above="@+id/inputRelativeLayout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginBottom="29dp"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll">
+
+
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/inputRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="#020065"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/inputEditText"
+            android:layout_width="330dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@id/sendButton"
+            android:background="@drawable/edit_round"
+            android:backgroundTintMode="src_in"
+            android:gravity="start"
+            android:hint="Ketik disini"
+
+            android:padding="5dp"
+            android:textColorHighlight="#2E2D2D"
+            android:textColorLink="#00FCFAFA" />
+
+        <ImageButton
+            android:id="@+id/sendButton"
+            android:layout_width="42dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="6dp"
+            android:adjustViewBounds="false"
+            android:background="#00020069"
+            android:src="@drawable/ic_send_black_24dp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home_page"
+    tools:context=".View.MainActivity">
+
+    <ImageView
+        android:id="@+id/chatBot"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="335dp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/ic_chatbot"
+        tools:layout_editor_absoluteX="342dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <TextView
+        android:id="@+id/welcome_day"
+        android:layout_width="230dp"
+        android:layout_height="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="22dp"
+        android:textColor="#FFFFFF"
+        android:gravity="top"
+        android:text="Welcome, ASK TECH" />
+
+    <TextView
+        android:id="@+id/informasi"
+        android:layout_width="150dp"
+        android:layout_height="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="Informasi Artikel"
+        android:gravity="top"
+        android:fontFamily="sans-serif-medium"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/recycleview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/informasi"
+        />
+
+
+</RelativeLayout>
